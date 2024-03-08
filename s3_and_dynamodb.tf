@@ -1,17 +1,17 @@
 
 # resource "aws_s3_bucket" "s3_bucket_for_remotebackend" {
 
-#     bucket = "order-lambda-bucket-scalable"
+#     bucket = ""
 # }
 
 # resource "aws_dynamodb_table" "terraform_lock" {
 
-#     name = "terraform-lock"
-#     billing_mode = "PAY_PER_REQUEST"
-#     hash_key = "LockID"
+#     name = ""
+#     billing_mode = ""
+#     hash_key = ""
 
 #     attribute {
-#       name = "LockID"
+#       name = ""
 #       type = "S"
 #     }
   
